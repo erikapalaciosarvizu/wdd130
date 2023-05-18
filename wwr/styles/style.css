@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Roboto&display=swap');
+
+.home-title {
+    font-family: 'Merienda', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+
 div{
     width: 1600px;
 }
@@ -26,10 +33,15 @@ main section{
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 nav a{
     text-align: center;
     color: #023e8a;
     text-decoration: none;
+    padding: 35px;
 }
 
 #background {
@@ -37,7 +49,11 @@ nav a{
 }
 
 body {
-    background-color: #D9DCD6
+    background-color: #D9DCD6;
+    font-family: Merienda, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -53,17 +69,27 @@ nav a:hover{
     background-color: #f8aa20;
     color: #2364AA;
     text-decoration: none;
+    font-family: 'Merienda', 'Bradley Hand', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
     background-color:#EA7317;
-    color: #2364AA
+    color: #2364AA;
 }
 
 .join {
     background-color:#EA7317;
     color: #2364AA;
     text-decoration: none;
+    font-family: 'Merienda', 'Bradley Hand', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -76,12 +102,16 @@ nav a:hover{
 }
 
 .msg {
-    background-color: #023e8a
+    background-color: #023e8a;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color:#48cae4;
     color: #000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -98,8 +128,13 @@ footer p {
     font-size: 1.2em;
 }   
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .home-title{
     color: #c77dff;
+    margin-top: 10px;
 }
 
 h4 {
@@ -108,16 +143,45 @@ h4 {
 
 .msg h2{
     color: #fff;
+    font-family: 'Bradley Hand', 'Arial', sans-serif;
 }
 
 .msg p{
     color: #fff;
+    font-family: 'Arial', 'Bradley Hand', sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
     width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #2D6074;
 }
