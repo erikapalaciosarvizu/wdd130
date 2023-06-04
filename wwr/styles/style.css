@@ -30,11 +30,12 @@
 
 #hero-msg h4{
     text-align: center;
-    color: white
+    color: white;
 }
 
 #hero-img {
     width: 100%;
+
 }
 
 #hero-box {
