@@ -10,6 +10,54 @@
     max-width: 1600px;
 }
 
+.information{
+    color: #000;
+    font-family: roboto, Arial, sans-serif;
+    font-size: 19px;
+}
+
+.faq-grid h4{
+    color: #023e8a;
+    
+}
+
+.faq-grid{
+    color: #000;
+    font-family: roboto, Arial, sans-serif;
+    font-size: 19px;
+    margin: 70px;
+}
+
+.faq-imag{
+    max-width: 300px;
+    float: right;
+    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid #2D6074;
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#hero-msg-faq{
+    margin-top: 50px;
+}
+
+#hero-msg-faq{
+    color: #000;
+    margin-left: 70px;
+}
+
+#hero-msg-faq h1{
+    text-align: center;
+    color: #023e8a;
+}
+
+#hero-msg-faq h4{
+    color: #000;
+    font-family: roboto, Arial, sans-serif;
+}
+
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -21,7 +69,7 @@
     color: white
 }
 
-#hero-msg {
+#hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
@@ -253,7 +301,6 @@ h2 {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
