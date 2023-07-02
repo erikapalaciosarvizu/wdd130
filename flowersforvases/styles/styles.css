@@ -4,7 +4,6 @@
   font-family: Diphylleia, Helvetica, sans-serif;
 }
 
-
 header {
   display: grid;
   grid-template-columns: 150px auto;
@@ -35,7 +34,6 @@ body {
   font-family: Diphylleia, Helvetica, sans-serif;
   font-size: 22px;
 }
-
 
 nav a:hover {
   /*color cuando selecciono en header*/
@@ -87,7 +85,6 @@ main section {
   opacity: 0.6;
   transform: scale(1.1);
 }
-
 
 .benefit-payment{
   width: 100%;
@@ -162,7 +159,6 @@ footer a {
     color: #FFF0F3;
 
 }
-
 
 .footer-final{
   color: #FFF0F3;
