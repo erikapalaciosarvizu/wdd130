@@ -72,7 +72,7 @@ main section {
 
 .home-grid {
   display:grid;
-  grid-template-columns: 100px auto;
+  grid-template-columns: 80px auto;
 }
 
 .card-img{
