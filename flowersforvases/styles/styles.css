@@ -40,6 +40,7 @@ body {
 nav a:hover {
   /*color cuando selecciono en header*/
   background-color: #ffb3c1;
+  color: #800f2f;
 }
 
 nav a {
@@ -73,7 +74,7 @@ main section {
 
 .home-grid {
   display:grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns: 100px auto;
 }
 
 .card-img{
