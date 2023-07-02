@@ -76,7 +76,7 @@ main section {
 }
 
 .card-img{
-  border: 10px solid #c9184a;
+  border: 10px solid #800F2F;
   transition: transform 0.5s;
   box-shadow: 5px 5px 10px #6f7364;
 }
@@ -119,7 +119,7 @@ main section {
 
 .methods{
   width: 100%;
-  border: 10px solid #c9184a;
+  border: 10px solid #800F2F;
   transition: transform 0.5s;
   box-shadow: 5px 5px 10px #6f7364;
 }
