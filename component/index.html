@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a Simple Web Component</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div>
+        <h2>My favorite albums gallery</h2>
+        <p>Click on the images below:</p>
+    </div>
+
+<div class="row">
+    <div class="column">
+        <img src="images/afterlaughter.jpg" alt="After Laughter" style="width: 100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="images/whitenoise.jpg" alt="White Noise" style="width: 100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="images/dontpanic.jpg" alt="Don't Panic" style="width: 100%;" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="images/doubledare.jpg" alt="Double Dare" style="width: 100%;" onclick="myFunction(this);">
+    </div>
+</div>
+
+<div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width: 100%;">
+    <div id="imgtext"></div>
+</div>
+
+
+<script>
+    function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+}
+</script>
+
+</body>
+</html>
