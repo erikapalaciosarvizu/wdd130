@@ -6,10 +6,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #590D22   ;
-  --secondary-color: #A4133C ;
-  --accent1-color: #FF8FA3;
-  --accent2-color: #FFF0F3;
+  --primary-color: #FFF0F3;
+  --secondary-color: #800F2F;
+  --accent1-color: #FFB3C1; 
+  --accent2-color: #FF4D6D;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Diphylleia";
