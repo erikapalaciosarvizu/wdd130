@@ -286,9 +286,9 @@ footer a {
     flex-direction: column;
   }
 
-  #hero {
-    margin-top: 0;
-  }
+#hero {
+  margin-top: 0;
+}
 
 .container .card-img, .containerimages {
 flex-direction: column;
@@ -299,14 +299,35 @@ align-items: center;
   margin-bottom: 10px;
 }
 
-.payment-methods{
-  width: 80%;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 100px;
+
+.methods {
+  max-width: 400px;
+}
+
+.social-link a {
+  font-size: 20px;
+}
+
+.footer-row {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
   footer {
     margin-top: 25px;
   }
+
+
+.footer-final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+@media (max-width: 576px) {
+  /* Ajustar el tamaño de las secciones del footer */
+  .footer-row {
+    grid-template-columns: 1fr;
+  }
+
 }
