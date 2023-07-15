@@ -19,6 +19,7 @@ header {
   width: 100%;
 }
 
+
 body h1 {
   /*benefits*/
   text-align: center;
@@ -33,7 +34,7 @@ body {
   max-width: 1600px;
   background-color: #fff0f3;
   font-family: Diphylleia, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 nav a:hover {
@@ -254,7 +255,7 @@ footer a {
 }
 
 .price {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 900;
   color: #590d22;
 }
@@ -283,6 +284,20 @@ footer a {
     margin-top: 0;
   }
 
+  .container-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+
   .container .card-img,
   .containerimages {
     flex-direction: column;
@@ -306,9 +321,4 @@ footer a {
     align-items: center;
   }
 
-  .container-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-  }
 }
