@@ -178,6 +178,15 @@ footer a {
   display: inline-block;
 }
 
+.social-link{  
+  padding-top: 5px;
+  display: flex;
+}
+
+.social-link a {
+  margin-right: 10px;
+}
+
 .footer-links ul li a {
   font-size: 18px;
   text-decoration: none;
@@ -189,23 +198,6 @@ footer a {
 .footer-links ul li a:hover {
   color: #fff0f3;
   padding-left: 6px;
-}
-
-.social-link a {
-  display: inline-block;
-  min-height: 40px;
-  width: 40px;
-  background-color: #ff4d6d;
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #fff0f3;
-  transition: all 0.5s ease;
-}
-
-.social-link a:hover {
-  background-color: #ffb3c1;
 }
 
 .footer-row {
