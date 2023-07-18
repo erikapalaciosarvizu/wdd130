@@ -313,4 +313,39 @@ footer a {
     align-items: center;
   }
 
+@media only screen and (max-width: 600px) {
+footer .container {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-row {
+  flex-wrap: wrap;
+}
+
+footer .footer-links {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+footer .footer-links h4 {
+  text-align: center;
+}
+
+footer .footer-links ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer-links ul li {
+  margin: 0 10px;
+}
+
+footer .footer-final {
+  flex-direction: column;
+  text-align: center;
+}
+}
+
+
 }
